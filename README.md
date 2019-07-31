@@ -19,6 +19,18 @@ This module is a best-practices definition for run a piece of infrastructure suc
 
 We have [*fifty plus terraform modules*][terraform_modules]. A few of them are comepleted and are available for open source usage while a few others are in progress.
 
+## Prerequisites
+
+These are few dependencies of modules:
+
+- Terraform 0.12
+- Go Environment
+
+There are some go packages which also need:
+
+- github.com/stretchr/testify/assert
+- github.com/gruntwork-io/terratest/modules/terraform
+
 ## Examples
 
 
@@ -98,51 +110,23 @@ module "acm" {
 
 ## Testing
 
-In this module testing are performed with terratest and in this testing at your AWS account create this small piece of infrastructure, matches the output like ARN, ID and Tags name etc and destroy infrastructure. This testing is written in go, so need a go environment in your system. 
+In this module testing are performed with [terratest](https://github.com/gruntwork-io/terratest) and in this testing at your AWS account create this small piece of infrastructure, matches the output like ARN, ID and Tags name etc and destroy infrastructure. This testing is written in go, so need a [go environment](https://golang.org/doc/install) in your system. 
 
 You run the following command in the testing folder:
 ```hcl
   go test -run Test
 ```
 
-## Related Projects
-
-Check out other related modules.
-
-- [terraform-aws-cloudfront-cdn-secure](https://github.com/clouddrove/terraform-aws-cloudfront-cdn-secure) - Terraform module provisioning for create cloudfront to CDN service with secure.
-
 ## Feedback
 
 If you encountered any bug or have any suggestions, please use our [issue-tracker](https://github.com/clouddrove/terraform-aws-acm/issues), or you can send us an email at [hello@clouddrove.com](mailto:hello@clouddrove.com).
 Love this project? Please give a ★ on [our GitHub](https://github.com/clouddrove/terraform-aws-acm)! (it helps us **a lot**)
 
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) for details and also refer to original [Source](https://opensource.org/licenses/MIT).
-
-© Copyright 2019 [CloudDrove](https://clouddrove.com). All Rights Reserved
-
-## About
+## About us
 
 [![Clouddrove][logo]][website]
 
 We're a DevOps Services company based in India and Germany. We ❤️  [Open Source Software][we_love_open_source] and you can Check out [our other modules][github] to get help with your new Cloud ideas.
-
-
-
-### Contributors
-
-|  [![Kamlesh Bhargav][kamleshbhargav_avatar]][kamleshbhargav_homepage]<br/>[Kamlesh Bhargav][kamleshbhargav_homepage] | [![Nikita Dugar][nikitadugar_avatar]][nikitadugar_homepage]<br/>[Nikita Dugar][nikitadugar_homepage] | [![Sohan Yadav][sohanyadav_avatar]][sohanyadav_homepage]<br/>[Sohan Yadav][sohanyadav_homepage] |
-|---|---|---|
-
-  [kamleshbhargav_homepage]: https://github.com/kamleshbhargav
-  [kamleshbhargav_avatar]: https://github.com/kamleshbhargav.png?size=150
-  [nikitadugar_homepage]: https://github.com/nikitadugar
-  [nikitadugar_avatar]: https://github.com/nikitadugar.png?size=150
-  [sohanyadav_homepage]: https://github.com/sohanyadav
-  [sohanyadav_avatar]: https://github.com/sohanyadav.png?size=150
 
 
 
