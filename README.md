@@ -15,7 +15,7 @@ This module is a component of our extensive strategy to DevOps.
 [<img align="right" title="Share on LinkedIn" src="https://docs.cloudposse.com/images/ionicons/social-linkedin-outline-2.0.1-16x16-999999.svg" />][share_linkedin]
 [<img align="right" title="Share on Twitter" src="https://docs.cloudposse.com/images/ionicons/social-twitter-outline-2.0.1-16x16-999999.svg" />][share_twitter]
 
-This module is a best-practices definition for run a piece of infrastructure such as database, clusters and storage. This module is basically combination of [Terraform open source](https://www.terraform.io/) and include automate tests and examples. This module helps to maintain your infrastructure with minimalistic code and instead to maintain the whole infrastructure code yourself, you can lleverage this module and improve infrastructure in better way.
+This module is a best-practices definition for run a piece of infrastructure such as database, clusters and storage. This module is basically combination of [Terraform open source](https://www.terraform.io/) and include automate tests and examples. This module helps to create and improve your infrastructure with minimalistic code instead to maintain the whole infrastructure code yourself.
 
 We have [*fifty plus terraform modules*][terraform_modules]. A few of them are comepleted and are available for open source usage while a few others are in progress.
 
