@@ -23,8 +23,8 @@ We have [*fifty plus terraform modules*][terraform_modules]. A few of them are c
 
 These are few dependencies of modules:
 
-- Terraform 0.12
-- Go Environment
+- [Terraform 0.12](https://learn.hashicorp.com/terraform/getting-started/install.html)
+- [Go Environment](https://golang.org/doc/install)
 
 There are some go packages which also need:
 
