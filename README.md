@@ -96,6 +96,14 @@ module "acm" {
 | id | The ID of the s3 bucket |
 | tags | A mapping of tags to assign to the resource. |
 
+## Testing
+
+In this module testing are performed with terratest and in this testing at your AWS account create this small piece of infrastructure, matches the output like ARN, ID and Tags name etc and destroy infrastructure. This testing is written in go, so need a go environment in your system. 
+
+You run the following command in the testing folder:
+```hcl
+  go test -run Test
+```
 
 ## Related Projects
 
