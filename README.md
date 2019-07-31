@@ -124,8 +124,6 @@ Love this project? Please give a ★ on [our GitHub](https://github.com/clouddro
 
 ## About us
 
-[![Clouddrove][logo]][website]
-
 We're a DevOps Services company based in India and Germany. We ❤️  [Open Source Software][we_love_open_source] and you can Check out [our other modules][github] to get help with your new Cloud ideas.
 
 
