@@ -10,19 +10,19 @@ Terraform module to create an ACM with either DNS or Email verificaton.
 
 ---
 
-This project is component of our extensive strategy to DevOps.
+This project is a component of our extensive strategy to DevOps.
 [<img align="right" title="Share on Facebook" src="https://docs.cloudposse.com/images/ionicons/social-facebook-outline-2.0.1-16x16-999999.svg" />][share_facebook]
 [<img align="right" title="Share on LinkedIn" src="https://docs.cloudposse.com/images/ionicons/social-linkedin-outline-2.0.1-16x16-999999.svg" />][share_linkedin]
 [<img align="right" title="Share on Twitter" src="https://docs.cloudposse.com/images/ionicons/social-twitter-outline-2.0.1-16x16-999999.svg" />][share_twitter]
 
-We literally have [*fifty of terraform modules*][terraform_modules] that are some Open Source with well-maintained and some are in progress. Check them out!
+We have [*fifty plus terraform modules*][terraform_modules]. A few of them are comepleted and are available for open source usage while a few others are in progress.
 
 ## Examples
 
 
-**IMPORTANT:** The `master` branch is used in `source` can be varied day by day so we recommend to use always our release and you find it [here](https://github.com/clouddrove/terraform-aws-acm/releases).
+**IMPORTANT:** Since the `master` branch used in `source` varies based on new modifications, we suggest that you use the release versions [here](https://github.com/clouddrove/terraform-aws-acm/releases).
 
-Here are some sample examples to use this module in your inventory structure:
+Here are some examples of how you can use this module in your inventory structure:
 ### ACM with DNS
 ```hcl
 module "acm" {
@@ -108,22 +108,22 @@ There are many versions available, see the [tags on this repository](https://git
 
 ## Feedback
 
-If you got any bugs or improvements please use our [issue-tracker](https://github.com/clouddrove/terraform-aws-acm/issues), or you can send us an [email][email] for any other feedback.
+If you encountered any bug or have any suggestions, please use our [issue-tracker](https://github.com/clouddrove/terraform-aws-acm/issues), or you can send us an [email][email].
 Love this project? Please give a ★ on [our GitHub](https://github.com/clouddrove/terraform-aws-acm)! (it helps us **a lot**)
 
 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) for details and also refer original [Source](https://opensource.org/licenses/MIT).
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) for details and also refer to original [Source](https://opensource.org/licenses/MIT).
 
-© Copyright 2019 [CloudDrove](https://clouddrove.com). All Right Reserved
+© Copyright 2019 [CloudDrove](https://clouddrove.com). All Rights Reserved
 
 ## About
 
 [![Clouddrove][logo]][website]
 
-We're a DevOps Professional Services company based in Jaipur, India and other branch at München, Germany. We ❤️  [Open Source Software][we_love_open_source] and you can Check out [our other modules][github] to help with your new Cloud idea.
+We're a DevOps Services company based in India and Germany. We ❤️  [Open Source Software][we_love_open_source] and you can Check out [our other modules][github] to get help with your new Cloud ideas.
 
 
 
