@@ -5,6 +5,7 @@
 # terraform-aws-acm 
 
 Terraform module to create an ACM with either DNS or Email verificaton.
+
 [![Build Status](https://img.shields.io/badge/Terraform-v0.12-green)](https://www.terraform.io) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ---
