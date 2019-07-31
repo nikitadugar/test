@@ -99,16 +99,11 @@ module "acm" {
 
 Check out other related modules.
 
-- [terraform-aws-cloudfront-cdn-secure](https://github.com/clouddrove/terraform-aws-cloudfront-cdn-secure) - Terraform module provisioning for create clodfront to CDN service with secure.
-
-
-## Versioning
-
-There are many versions available, see the [tags on this repository](https://github.com/clouddrove/terraform-aws-acm/tags).
+- [terraform-aws-cloudfront-cdn-secure](https://github.com/clouddrove/terraform-aws-cloudfront-cdn-secure) - Terraform module provisioning for create cloudfront to CDN service with secure.
 
 ## Feedback
 
-If you encountered any bug or have any suggestions, please use our [issue-tracker](https://github.com/clouddrove/terraform-aws-acm/issues), or you can send us an [email][email].
+If you encountered any bug or have any suggestions, please use our [issue-tracker](https://github.com/clouddrove/terraform-aws-acm/issues), or you can send us an email at [hello@clouddrove.com](mailto:hello@clouddrove.com).
 Love this project? Please give a ★ on [our GitHub](https://github.com/clouddrove/terraform-aws-acm)! (it helps us **a lot**)
 
 
