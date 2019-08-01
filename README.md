@@ -14,7 +14,8 @@
     </a>
 </p>
 <p align="center">
-    <img title="Share on Facebook" src="https://docs.cloudposse.com/images/ionicons/social-facebook-outline-2.0.1-16x16-999999.svg" />
+    <a href="https://facebook.com/sharer/sharer.php?u=https://github.com/clouddrove/terraform-aws-acm
+"><img title="Share on Facebook" src="https://docs.cloudposse.com/images/ionicons/social-facebook-outline-2.0.1-16x16-999999.svg" /></a>
     <img title="Share on LinkedIn" src="https://docs.cloudposse.com/images/ionicons/social-linkedin-outline-2.0.1-16x16-999999.svg" />
     <img title="Share on Twitter" src="https://docs.cloudposse.com/images/ionicons/social-twitter-outline-2.0.1-16x16-999999.svg" />
 </p>
