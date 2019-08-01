@@ -12,18 +12,18 @@ This module is a component of our extensive strategy to DevOps.
 [<img align="right" title="Share on LinkedIn" src="https://docs.cloudposse.com/images/ionicons/social-linkedin-outline-2.0.1-16x16-999999.svg" />][share_linkedin]
 [<img align="right" title="Share on Twitter" src="https://docs.cloudposse.com/images/ionicons/social-twitter-outline-2.0.1-16x16-999999.svg" />][share_twitter]
 
-This module is a best-practices definition for run a piece of infrastructure such as database, clusters and storage. This module is basically combination of [Terraform open source](https://www.terraform.io/) and include automate tests and examples. This module helps to create and improve your infrastructure with minimalistic code instead to maintain the whole infrastructure code yourself.
+It is a best-practice for running a piece of infrastructure such as database, cluster and storage. This module is basically combination of [Terraform open source](https://www.terraform.io/) and includes automatation tests and examples. It also helps to create and improve your infrastructure with minimalistic code instead of maintaining the whole infrastructure code yourself.
 
 We have [*fifty plus terraform modules*][terraform_modules]. A few of them are comepleted and are available for open source usage while a few others are in progress.
 
 ## Prerequisites
 
-These are few dependencies of modules:
+This module has a few dependencies: 
 
 - [Terraform 0.12](https://learn.hashicorp.com/terraform/getting-started/install.html)
 - [Go Environment](https://golang.org/doc/install)
 
-There are some go packages which also need:
+There are some GO packages which also needed:
 
 - github.com/stretchr/testify/assert
 - github.com/gruntwork-io/terratest/modules/terraform
@@ -107,17 +107,18 @@ module "acm" {
 
 ## Testing
 
-In this module testing are performed with [terratest](https://github.com/gruntwork-io/terratest) and in this testing at your AWS account create this small piece of infrastructure, matches the output like ARN, ID and Tags name etc and destroy infrastructure. This testing is written in go, so need a [go environment](https://golang.org/doc/install) in your system. 
+In this module testing is performed with [terratest](https://github.com/gruntwork-io/terratest) and it creates a small piece of infrastructure, matches the output like ARN, ID and Tags name etc and destroy infrastructure in your AWS account. This testing is written in GO, so you need a [GO environment](https://golang.org/doc/install) in your system. 
 
-You run the following command in the testing folder:
+You need to run the following command in the testing folder:
 ```hcl
   go test -run Test
 ```
 
 ## Feedback
 
-If you encountered any bug or have any suggestions, please use our [issue-tracker](https://github.com/clouddrove/terraform-aws-acm/issues), or you can send us an email at [hello@clouddrove.com](mailto:hello@clouddrove.com).
-Love this project? Please give a ★ on [our GitHub](https://github.com/clouddrove/terraform-aws-acm)! (it helps us **a lot**)
+If you come accross a bug or have any feedback, please log it in our [issue-tracker](https://github.com/clouddrove/terraform-aws-acm/issues), or feel free to drop us an email at [hello@clouddrove.com](mailto:hello@clouddrove.com).
+
+If you have found it worth your time, go ahead and give us a positive rating on [our GitHub](https://github.com/clouddrove/terraform-aws-acm)!
 
 ## About us
 
