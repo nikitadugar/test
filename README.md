@@ -122,7 +122,9 @@ If you have found it worth your time, go ahead and give us a positive rating on 
 
 ## About us
 
-We're a DevOps Services company based in India and Germany. We ❤️  [Open Source Software][we_love_open_source] and you can Check out [our other modules][github] to get help with your new Cloud ideas.
+At CloudDrove, we offer expert guidance, implementation support and services to help organisations accelerate their journey to the cloud. Our services include docker and container orchestration, cloud migration and adoption, infrastructure automation, application modernisation and remediation, and performance engineering.
+
+We ❤️  [Open Source Software][we_love_open_source] and you can check out [our other modules][github] to get help with your new Cloud ideas.
 
 
 
