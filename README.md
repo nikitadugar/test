@@ -14,18 +14,14 @@
     </a>
 </p>
 <p align="center">
-    <a href="https://facebook.com/sharer/sharer.php?u=https://github.com/clouddrove/terraform-aws-acm
-"><img title="Share on Facebook" src="https://docs.cloudposse.com/images/ionicons/social-facebook-outline-2.0.1-16x16-999999.svg" /></a>
-    <img title="Share on LinkedIn" src="https://docs.cloudposse.com/images/ionicons/social-linkedin-outline-2.0.1-16x16-999999.svg" />
-    <img title="Share on Twitter" src="https://docs.cloudposse.com/images/ionicons/social-twitter-outline-2.0.1-16x16-999999.svg" />
+    <a href="https://facebook.com/sharer/sharer.php?u=https://github.com/clouddrove/terraform-aws-acm"><img title="Share on Facebook" src="https://docs.cloudposse.com/images/ionicons/social-facebook-outline-2.0.1-16x16-999999.svg" /></a>
+    <a href="https://www.linkedin.com/shareArticle?mini=true&title=terraform-aws-acm&url=https://github.com/clouddrove/terraform-aws-acm"><img title="Share on LinkedIn" src="https://docs.cloudposse.com/images/ionicons/social-linkedin-outline-2.0.1-16x16-999999.svg" /></a>
+    <a href="https://twitter.com/intent/tweet/?text=terraform-aws-acm&url=https://github.com/clouddrove/terraform-aws-acm"><img title="Share on Twitter" src="https://docs.cloudposse.com/images/ionicons/social-twitter-outline-2.0.1-16x16-999999.svg" /></a>
 </p>
 <hr />
 
 
 This module is a component of our extensive strategy to DevOps.
-[<img align="right" title="Share on Facebook" src="https://docs.cloudposse.com/images/ionicons/social-facebook-outline-2.0.1-16x16-999999.svg" />][share_facebook]
-[<img align="right" title="Share on LinkedIn" src="https://docs.cloudposse.com/images/ionicons/social-linkedin-outline-2.0.1-16x16-999999.svg" />][share_linkedin]
-[<img align="right" title="Share on Twitter" src="https://docs.cloudposse.com/images/ionicons/social-twitter-outline-2.0.1-16x16-999999.svg" />][share_twitter]
 
 It is a best-practice for running a piece of infrastructure such as database, cluster and storage. This module is basically combination of [Terraform open source](https://www.terraform.io/) and includes automatation tests and examples. It also helps to create and improve your infrastructure with minimalistic code instead of maintaining the whole infrastructure code yourself.
 
