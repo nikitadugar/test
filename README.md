@@ -11,7 +11,6 @@
     <a href="https://www.terraform.io">
       <img src="https://img.shields.io/badge/Terraform-v0.12-green" alt="Terraform">
     </a>
-  </p>
 </p>
 <p align="center">
     <img align="right" title="Share on Facebook" src="https://docs.cloudposse.com/images/ionicons/social-facebook-outline-2.0.1-16x16-999999.svg" />
