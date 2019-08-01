@@ -25,8 +25,8 @@ This module has a few dependencies:
 
 There are some GO packages which also needed:
 
-- github.com/stretchr/testify/assert
-- github.com/gruntwork-io/terratest/modules/terraform
+- [github.com/stretchr/testify/assert](https://github.com/stretchr/testify)
+- [github.com/gruntwork-io/terratest/modules/terraform](https://github.com/gruntwork-io/terratest)
 
 ## Examples
 
@@ -118,7 +118,7 @@ You need to run the following command in the testing folder:
 
 If you come accross a bug or have any feedback, please log it in our [issue-tracker](https://github.com/clouddrove/terraform-aws-acm/issues), or feel free to drop us an email at [hello@clouddrove.com](mailto:hello@clouddrove.com).
 
-If you have found it worth your time, go ahead and give us a positive rating on [our GitHub](https://github.com/clouddrove/terraform-aws-acm)!
+If you have found it worth your time, go ahead and give us a * on [our GitHub](https://github.com/clouddrove/terraform-aws-acm)!
 
 ## About us
 
