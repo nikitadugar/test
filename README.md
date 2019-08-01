@@ -20,10 +20,9 @@
 </p>
 <hr />
 
+We eat, sleep, pray and most importantly love DevOps. We are working towards stratergies for standardizing architecture while ensuring security for the infrastructure. This module is one such effort in that direction.
 
-This module is a component of our extensive strategy to DevOps.
-
-It is a best-practice for running a piece of infrastructure such as database, cluster and storage. This module is basically combination of [Terraform open source](https://www.terraform.io/) and includes automatation tests and examples. It also helps to create and improve your infrastructure with minimalistic code instead of maintaining the whole infrastructure code yourself.
+We are strong believer of the philosophy <b>Bigger problems are always solved by breaking them into smaller manageable problems</b>. Resonating with microservices architecture, it is considered best-practice to run database, cluster, storage in smaller <b>connected yet manageable pieces</b> within the infrastructure. This module is basically combination of [Terraform open source](https://www.terraform.io/) and includes automatation tests and examples. It also helps to create and improve your infrastructure with minimalistic code instead of maintaining the whole infrastructure code yourself.
 
 We have [*fifty plus terraform modules*][terraform_modules]. A few of them are comepleted and are available for open source usage while a few others are in progress.
 
@@ -131,6 +130,8 @@ If you have found it worth your time, go ahead and give us a * on [our GitHub](h
 ## About us
 
 At CloudDrove, we offer expert guidance, implementation support and services to help organisations accelerate their journey to the cloud. Our services include docker and container orchestration, cloud migration and adoption, infrastructure automation, application modernisation and remediation, and performance engineering.
+
+<p align="center">We are <b> The Cloud Experts!</b></p>
 <hr />
 <p align="center">We ❤️  <a href="https://github.com/clouddrove">Open Source</a> and you can check out <a href="https://github.com/clouddrove">our other modules</a> to get help with your new Cloud ideas.</p>
 
