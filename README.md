@@ -126,7 +126,9 @@ At CloudDrove, we offer expert guidance, implementation support and services to 
 
 We ❤️  [Open Source Software][we_love_open_source] and you can check out [our other modules][github] to get help with your new Cloud ideas.
 
+## Contributors
 
+We have detailed it out with a lot of ❤️ and thought
 
   [logo]: https://clouddrove.com/media/images/logo.png
   [website]: https://clouddrove.com
