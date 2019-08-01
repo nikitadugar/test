@@ -5,6 +5,11 @@
 </h1>
 <p align="center" style="font-size: 1.2rem;"> Terraform module to create an ACM with either DNS or Email verificaton. </p>
 <p align="center">
+    <img align="right" title="Share on Facebook" src="https://docs.cloudposse.com/images/ionicons/social-facebook-outline-2.0.1-16x16-999999.svg" />
+    <img align="right" title="Share on LinkedIn" src="https://docs.cloudposse.com/images/ionicons/social-linkedin-outline-2.0.1-16x16-999999.svg" />
+    <img align="right" title="Share on Twitter" src="https://docs.cloudposse.com/images/ionicons/social-twitter-outline-2.0.1-16x16-999999.svg" />
+</p>
+<p align="center">
     <a href="LICENSE.md">
       <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License">
     </a>
@@ -12,11 +17,7 @@
       <img src="https://img.shields.io/badge/Terraform-v0.12-green" alt="Terraform">
     </a>
 </p>
-<p align="center">
-    <img align="right" title="Share on Facebook" src="https://docs.cloudposse.com/images/ionicons/social-facebook-outline-2.0.1-16x16-999999.svg" />
-    <img align="right" title="Share on LinkedIn" src="https://docs.cloudposse.com/images/ionicons/social-linkedin-outline-2.0.1-16x16-999999.svg" />
-    <img align="right" title="Share on Twitter" src="https://docs.cloudposse.com/images/ionicons/social-twitter-outline-2.0.1-16x16-999999.svg" />
-</p>
+
 <hr />
 
 
