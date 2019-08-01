@@ -21,7 +21,7 @@ We have [*fifty plus terraform modules*][terraform_modules]. A few of them are c
 This module has a few dependencies: 
 
 - [Terraform 0.12](https://learn.hashicorp.com/terraform/getting-started/install.html)
-- [Go Environment](https://golang.org/doc/install)
+- [Go](https://golang.org/doc/install)
 
 There are some GO packages which also needed:
 
