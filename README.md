@@ -124,11 +124,8 @@ If you have found it worth your time, go ahead and give us a * on [our GitHub](h
 
 At CloudDrove, we offer expert guidance, implementation support and services to help organisations accelerate their journey to the cloud. Our services include docker and container orchestration, cloud migration and adoption, infrastructure automation, application modernisation and remediation, and performance engineering.
 
-We ❤️  [Open Source Software][we_love_open_source] and you can check out [our other modules][github] to get help with your new Cloud ideas.
+We ❤️  [ Open Source ][we_love_open_source] and you can check out [our other modules][github] to get help with your new Cloud ideas.
 
-## Contributors
-
-We have detailed it out with a lot of ❤️ and thought
 
   [logo]: https://clouddrove.com/media/images/logo.png
   [website]: https://clouddrove.com
