@@ -89,28 +89,28 @@ module "acm" {
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| application | application (e.g. `cp` or `clouddrove`) | string | - | yes |
-| certificate_body | path of certificate body | string | `~` | no |
-| certificate_chain | path of certificate chain | string | `` | no |
+| application | Application (e.g. `cp` or `clouddrove`). | string | - | yes |
+| certificate_body | Path of certificate body. | string | `~` | no |
+| certificate_chain | Path of certificate chain. | string | `` | no |
 | create_acm_certificate | Set to false to prevent the creation of a acm certificate. | string | `true` | no |
 | dns_validation | Set to prevent validation of DNS. | string | `false` | no |
-| domain_name | A domain name for which the certificate should be issued | string | `` | no |
-| environment | Environment (e.g. `prod`, `dev`, `staging`) | string | - | yes |
+| domain_name | A domain name for which the certificate should be issued. | string | `` | no |
+| environment | Environment (e.g. `prod`, `dev`, `staging`). | string | - | yes |
 | import_certificate | Set to true or false to decide the creation and import of a acm certificate. | string | `false` | no |
-| label_order | label order, e.g. `name`,`application` | list | `<list>` | no |
+| label_order | Label order, e.g. `name`,`application`. | list | `<list>` | no |
 | name | Name  (e.g. `app` or `cluster`) | string | - | yes |
-| private_key | path of private key | string | `` | no |
+| private_key | Path of private key. | string | `` | no |
 | ttl | Time to live. | string | `600` | no |
 | validate_certificate | Set to false to prevent the validation of a acm certificate. | string | `false` | no |
-| validation_method | Which method to use for validation, DNS or EMAIL | string | `` | no |
+| validation_method | Which method to use for validation, DNS or EMAIL. | string | `` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
-| arn | The ID of the s3 bucket |
-| domain_validation_options | The ID of the s3 bucket |
-| id | The ID of the s3 bucket |
+| arn | The ARN of the Certificate. |
+| domain_validation_options | The domain validation option of the Certificate. |
+| id | The ID of the Certificate. |
 | tags | A mapping of tags to assign to the resource. |
 
 ## Testing
