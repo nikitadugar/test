@@ -9,7 +9,7 @@ CloudDrove offers the below terraform modules:
 5. **[terraform-aws-cross-account-role](https://github.com/clouddrove/terraform-aws-cross-account-role):** This terraform module is used to create an IAM Role to access another AWS account inventory.
 6. **[terraform-aws-public-subnet](https://github.com/clouddrove/terraform-aws-public-subnet):** Terraform module for public subnets provisioning.
 7. **[terraform-aws-ecr](https://github.com/clouddrove/terraform-aws-ecr):** This terraform module is used to create ECR on AWS for store docker images.
-8. **[terraform-aws-s3](https://github.com/clouddrove/terraform-aws-s3):** Terraform module to create default S3 bucket with logging and encryption type specific features.
+8. **[terraform-aws-s3-old](https://github.com/clouddrove/terraform-aws-s3-old):** Terraform module to create default S3 bucket with logging and encryption type specific features.
 9. **[terraform-aws-vpc-peering](https://github.com/clouddrove/terraform-aws-vpc-peering):** Terraform module to connect two VPC's on AWS.
 10. **[terraform-aws-ebs-volume](https://github.com/clouddrove/terraform-aws-ebs-volume):** Terraform module to get EBS volume resource on AWS.
 11. **[terraform-aws-cloudtrail](https://github.com/clouddrove/terraform-aws-cloudtrail):** Terraform module to provision an AWS CloudTrail and an encrypted S3 bucket with versioning to store CloudTrail logs
@@ -38,7 +38,7 @@ CloudDrove offers the below terraform modules:
 34. **[terraform-aws-consul](https://github.com/clouddrove/terraform-aws-consul):** Terraform module to create Consul server cluster on EC2.
 35. **[terraform-aws-sqs](https://github.com/clouddrove/terraform-aws-sqs):** Terraform module to create SQS resource on AWS for managing queue.
 36. **[terraform-aws-efs](https://github.com/clouddrove/terraform-aws-efs):** Terraform module to create or deploy EFS on AWS.
-37. **[terraform-aws-cloudwatch-alarms](https://github.com/clouddrove/terraform-aws-cloudwatch-alarms):** Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
+37. **[terraform-aws-cloudwatch-alarms-old](https://github.com/clouddrove/terraform-aws-cloudwatch-alarms-old):** Terraform module creates Cloudwatch Alarm on AWS for monitoriing AWS services.
 38. **[terraform-aws-elastic-beanstalk](https://github.com/clouddrove/terraform-aws-elastic-beanstalk):** Terraform module to deploy Elastic Beanstalk resource on AWS.
 39. **[terraform-aws-iam](https://github.com/clouddrove/terraform-aws-iam):** Terraform module to create IAM role resource on AWS.
 40. **[terraform-aws-baseline](https://github.com/clouddrove/terraform-aws-baseline):** Internal repo for testing terraform modules.
@@ -48,6 +48,7 @@ CloudDrove offers the below terraform modules:
 44. **[terraform-aws-subnet](https://github.com/clouddrove/terraform-aws-subnet):** Terraform module to create public, private and public-private subnet with network acl, route table, Elastic IP, nat gateway, flow log.
 45. **[terraform-aws-alb](https://github.com/clouddrove/terraform-aws-alb):** This terraform module is used to create ALB on AWS.
 46. **[terraform-aws-vpc](https://github.com/clouddrove/terraform-aws-vpc)**
+47. **[terraform-aws-s3](https://github.com/clouddrove/terraform-aws-s3)**
 
 ## Ansible Packages
 
@@ -97,3 +98,10 @@ CloudDrove offers the below internal tools:
 If you come accross a bug or have any feedback, please log it in our [issue tracker](https://github.com/clouddrove/toc/issues), or feel free to drop us an email at [hello@clouddrove.com](mailto:hello@clouddrove.com).
 
 If you have found it worth your time, go ahead and give us a * on [our GitHub](https://github.com/clouddrove/terraform-aws-acm)!
+
+## About us
+
+At [CloudDrove][https://clouddrove.com], we offer expert guidance, implementation support and services to help organisations accelerate their journey to the cloud. Our services include docker and container orchestration, cloud migration and adoption, infrastructure automation, application modernisation and remediation, and performance engineering.
+
+<p align='center'>We are <b> The Cloud Experts!</b></p><hr /><p align='center'>We ❤️  <a href='https://github.com/clouddrove'>Open Source</a> and you can check out <a href='https://github.com/clouddrove'>our other modules</a> to get help with your new Cloud ideas.</p>
+
