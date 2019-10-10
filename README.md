@@ -10,15 +10,15 @@ Please follow the steps to setup profile
 - Download tmp profile link. Ex https://115.160.246.100/key/d1sdfdgsCqwT3zE9rAbUm0L1XvusDJvm.zip.
 - Extract and import file in Pritunl client with "import profile" button.
 
-    ![alt text](https://user-images.githubusercontent.com/50652676/66214630-ae6d3980-e6df-11e9-8b47-89309d4df400.png)
+    ![alt text](https://user-images.githubusercontent.com/50652676/66555671-acd2c400-eb6c-11e9-88b7-9dcecc0d1b4a.png)
     
 - Setup your MFA with code on authy or other tools. Ex GJINFGHJJ4XDZ54A.
 - Click on "connect" and type your pin. Ex 123456.
 
-    ![alt text](https://user-images.githubusercontent.com/50652676/66214852-1b80cf00-e6e0-11e9-885f-20a0e60a2235.png)
+    ![alt text](https://user-images.githubusercontent.com/50652676/66555752-cbd15600-eb6c-11e9-96ad-d2a220456dfd.png)
     
 - Enter your MFA otp and click "ok".
 
-    ![alt text](https://user-images.githubusercontent.com/50652676/66215031-64388800-e6e0-11e9-9ac0-1fc69618b0ac.png)
+    ![alt text](https://user-images.githubusercontent.com/50652676/66555819-e3a8da00-eb6c-11e9-915f-3f0317a00f41.png)
 
 - Finally you connect with pritunl vpn.
