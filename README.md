@@ -1,24 +1,18 @@
-# Pritunl Setup Documentation
-In this document we describe how to setup pritunl client and how to setup your profile in it.
+# EBDeployment Through Jenkins
 
-## Download Pritunl Client
-Please refer [the document](https://client.pritunl.com/) and install Pritunl Client.
+For code deployment in ElasticBeanstalk we follow the following steps
 
-## Setup Pritunl Profile
-Please follow the steps to setup profile
+- firstly we added a plugin in jenkins.
+  [AWS Elastic Beanstalk Deployment Plugin](https://wiki.jenkins.io/display/JENKINS/AWSEB+Deployment+Plugin)
 
-- Download tmp profile link. Ex https://115.160.246.100/key/d1sdfdgsCqwT3zE9rAbUm0L1XvusDJvm.zip.
-- Extract and import file in Pritunl client with "import profile" button.
+- In credential management section add a credential for Bit-bucket or any other resource where is your repository and second credentials of AWS account.
 
-    ![alt text](https://user-images.githubusercontent.com/50652676/66555671-acd2c400-eb6c-11e9-88b7-9dcecc0d1b4a.png)
-    
-- Setup your MFA with code on authy or other tools. Ex GJINFGHJJ4XDZ54A.
-- Click on "connect" and type your pin. Ex 123456.
+- After adding crerdentials we start to create a free style job.
 
-    ![alt text](https://user-images.githubusercontent.com/50652676/66555752-cbd15600-eb6c-11e9-96ad-d2a220456dfd.png)
-    
-- Enter your MFA otp and click "ok".
+- Configure git repository in source code management. Reference image:
+  
+  <p align="center"><img src="https://user-images.githubusercontent.com/50652676/67359542-12697c00-f581-11e9-932d-b21fd5e699da.png" /></p>
+  
+- Add a build step with "AWS Elastic Beanstalk" and configure it with proper details.
 
-    ![alt text](https://user-images.githubusercontent.com/50652676/66555819-e3a8da00-eb6c-11e9-915f-3f0317a00f41.png)
-
-- Finally you connect with pritunl vpn.
+  <p align="center"><img src="https://user-images.githubusercontent.com/50652676/67360300-18f8f300-f583-11e9-8395-af89635a6506.png" /></p>
